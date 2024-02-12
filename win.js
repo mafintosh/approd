@@ -6,8 +6,7 @@ exports.sign = sign
 
 async function sign (filename) {
   const signTool = await findSignTool()
-  await run(signTool, 'sign', '/td', 'SHA1', '/fd', 'SHA1', '/tr', 'http://timestamp.digicert.com', filename)
-  await run(signTool, 'sign', '/td', 'SHA256', '/fd', 'SHA256', '/tr', 'http://timestamp.digicert.com', filename)
+  await run(signTool, 'sign', '/tr', 'http://timestamp.digicert.com', '/td', 'sha256', '/fd', 'sha256', '/a', filename)
 }
 
 async function findSignTool () {
