@@ -1,0 +1,22 @@
+{
+  "name": "approd",
+  "version": "0.0.0",
+  "description": "Tooling to productionize an app",
+  "main": "index.js",
+  "bin": {
+    "approd": "./bin.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/approd.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mafintosh/approd/issues"
+  },
+  "homepage": "https://github.com/mafintosh/approd"
+}
