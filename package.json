@@ -1,6 +1,6 @@
 {
   "name": "approd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tooling to productionize an app",
   "main": "index.js",
   "bin": {
